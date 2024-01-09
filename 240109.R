@@ -14,3 +14,17 @@ p4
 #4.85(e)
 p5= pnorm(-0.2, mean = 0, sd = 1)-pnorm(-1.56, mean=0,sd=1)
 p5
+
+#4.86(a)
+# 參數
+alpha=1.5
+beta = 4
+value=3.5
+# 計算
+p1= pgamma(value, shape = alpha, rate = 1/beta)
+p1
+
+#4.86(b)
+#參數
+degrees_of_freedom = 3
+value = 1.75
