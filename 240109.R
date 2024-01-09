@@ -28,3 +28,9 @@ p1
 #參數
 degrees_of_freedom = 3
 value = 1.75
+
+p2=pchisq(value, df = degrees_of_freedom)
+p2
+
+#4.86(c)
+#the same result
